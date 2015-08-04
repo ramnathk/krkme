@@ -222,3 +222,10 @@ ul.dropdown-menu>li>a>i.fa {
     width: 1.3em;
 }
 
+txtleft {
+  text-align: left;
+}
+
+txtcenter { 
+  text-align: center;
+}
