@@ -43,9 +43,9 @@ a.nav-link:hover { color: #777 }
 
 #bio {
 	font-family: "Open Sans", sans-serif;
-	font-size: 11px;
+	font-size: 1em;
 	margin: 0 auto;
-	margin-bottom: 10px;
+	margin-bottom: 1em;
 }
 
 #contact-list li .fa,
@@ -116,6 +116,9 @@ article.home div a:hover, article.home pre a:hover { color: #2c3e50; text-decora
 article img { max-width: 100%; }
 
 h1,h2,h3,h4,h5,h6 { font-family: 'Playfair Display', serif;  font-weight: 700;}
+h1 { font-size: 6rem; }
+h2 { font-size: 3rem;}
+h2 { font-size: 2.4rem;}
 article.home h1,
 article.home h2,
 article.home h3,
