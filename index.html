@@ -8,7 +8,7 @@ tagline:
 <article class="home">
 
   <h2 class="entry-title">
-    <a href="{{ site.BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+    <a class="entry-title" href="{{ site.BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
   </h2>
 <span class="post-date">
     {% assign d = post.date | date: "%d" | plus:'0' %}
