@@ -101,6 +101,7 @@ article{
 }
 
 .post-date {
+	font-family: 'Open Sans Condensed', sans-serif;
 	text-transform: uppercase;
 	font-size: 14px;
 	letter-spacing: 3px;
@@ -114,14 +115,15 @@ article.home div a, article.home pre a { color: #2c3e50; }
 article.home div a:hover, article.home pre a:hover { color: #2c3e50; text-decoration: none; }
 article img { max-width: 100%; }
 
-h1,h2,h3,h4,h5,h6 { font-family: 'Ubuntu', sans-serif; }
+h1,h2,h3,h4,h5,h6 { font-family: 'Playfair Display', serif;  font-weight: 700;}
 article.home h1,
 article.home h2,
 article.home h3,
 article.home h4,
 article.home h5,
 article.home h6 {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Playfair Display', serif;
+	font-weight:700;
 	color: #f2756a;
 }
 
