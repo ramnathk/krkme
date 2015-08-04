@@ -3,8 +3,8 @@
 	<channel>
 		<title></title>
 		<description>Saving the world one studio at a time</description>
-		<link>/</link>
-		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		<link>krkme/</link>
+		<atom:link href="krkme/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Hello World!</title>
@@ -18,8 +18,8 @@
 &lt;p&gt;&lt;a class=&quot;btn btn-default&quot; href=&quot;https://github.com/dbtek/dbyll&quot;&gt;Grab your copy now!&lt;/a&gt;&lt;/p&gt;
 </description>
 				<pubDate>Fri, 15 Nov 2013 00:00:00 -0800</pubDate>
-				<link>/general/setup/demo/2013/11/15/hello-world.html</link>
-				<guid isPermaLink="true">/general/setup/demo/2013/11/15/hello-world.html</guid>
+				<link>krkme/general/setup/demo/2013/11/15/hello-world.html</link>
+				<guid isPermaLink="true">krkme/general/setup/demo/2013/11/15/hello-world.html</guid>
 			</item>
 		
 			<item>
@@ -39,8 +39,8 @@ author:
   email_md5: md5ofemail&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 </description>
 				<pubDate>Fri, 15 Nov 2013 00:00:00 -0800</pubDate>
-				<link>/general/setup/demo/2013/11/15/configuration.html</link>
-				<guid isPermaLink="true">/general/setup/demo/2013/11/15/configuration.html</guid>
+				<link>krkme/general/setup/demo/2013/11/15/configuration.html</link>
+				<guid isPermaLink="true">krkme/general/setup/demo/2013/11/15/configuration.html</guid>
 			</item>
 		
 			<item>
@@ -50,8 +50,8 @@ author:
 &lt;p&gt;Lorem ipsum dolor sit amet,  consectetur adipisicing elit,  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,  sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 </description>
 				<pubDate>Thu, 14 Nov 2013 00:00:00 -0800</pubDate>
-				<link>/general/demo/sample/2013/11/14/sample-2.html</link>
-				<guid isPermaLink="true">/general/demo/sample/2013/11/14/sample-2.html</guid>
+				<link>krkme/general/demo/sample/2013/11/14/sample-2.html</link>
+				<guid isPermaLink="true">krkme/general/demo/sample/2013/11/14/sample-2.html</guid>
 			</item>
 		
 			<item>
@@ -66,8 +66,8 @@ end&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 </description>
 				<pubDate>Thu, 14 Nov 2013 00:00:00 -0800</pubDate>
-				<link>/general/demo/2013/11/14/sample.html</link>
-				<guid isPermaLink="true">/general/demo/2013/11/14/sample.html</guid>
+				<link>krkme/general/demo/2013/11/14/sample.html</link>
+				<guid isPermaLink="true">krkme/general/demo/2013/11/14/sample.html</guid>
 			</item>
 		
 	</channel>
