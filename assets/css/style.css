@@ -229,3 +229,9 @@ ul.dropdown-menu>li>a>i.fa {
 .txtcenter { 
   text-align: center;
 }
+
+/* KKR Overrides Bootstrap */
+@media(min-width: 768px)div[class^=".col-sm-"] {
+	width: 100% !important;
+}
+}
