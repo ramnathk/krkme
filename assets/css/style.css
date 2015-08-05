@@ -231,7 +231,7 @@ ul.dropdown-menu>li>a>i.fa {
 }
 
 /* KKR Overrides Bootstrap */
-@media(min-width: 768px)div[class^='.col-sm-'] {
+div[class^='.col-sm-'] {
 	width: 100% !important;
 }
 }
