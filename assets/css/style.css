@@ -172,10 +172,12 @@ blockquote::before {
 	top: -10px;
 }
 
+/* KRK floated it to right */
 .author .author-image {
-  float: left;
-  margin-right: 20px;
+  float: right;
+  margin-left: 20px;
 }
+
 
 footer {
 	padding-top: 15px;
@@ -230,7 +232,15 @@ ul.dropdown-menu>li>a>i.fa {
   text-align: center;
 }
 
-/* KKR Overrides Bootstrap */
+/* KKR added these */
 .col-sm-10 {
   width: 100% !important;
+}
+
+.section-title.author-name {
+    text-align: right;
+}
+
+p.author-bio {
+    text-align: right;
 }
