@@ -231,7 +231,6 @@ ul.dropdown-menu>li>a>i.fa {
 }
 
 /* KKR Overrides Bootstrap */
-div[class^='.col-sm-'] {
-	width: 100% !important;
-}
+.col-sm-10 {
+  width: 100% !important;
 }
