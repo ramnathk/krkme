@@ -1,6 +1,7 @@
 ---
 layout: page
-tagline:
+tagline: KRK Tagline
+description: Saving the world two studios at a time
 ---
 
 {% for post in paginator.posts %}
@@ -10,7 +11,7 @@ tagline:
   <h2 class="entry-title">
     <a class="entry-title" href="{{ site.BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
   </h2>
-  
+
 <p class="post-date">
     {% assign d = post.date | date: "%d" | plus:'0' %}
     {{ post.date | date: "%B" }}
@@ -41,7 +42,7 @@ tagline:
 {% endfor %}
 <hr/>
 
-<ul class="pager"> 
+<ul class="pager">
 
   {% if paginator.previous_page %}
   <li class="previous">
@@ -56,7 +57,7 @@ tagline:
     <a>&larr; Newer</a>
   </li>
   {% endif %}
-  
+
   <li>
     <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
   </li>
@@ -67,7 +68,7 @@ tagline:
   </li>
   {% else %}
   <li class="next disabled">
-    <a>Older &rarr;</a>        
+    <a>Older &rarr;</a>
   </li>
   {% endif %}
 
