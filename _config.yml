@@ -6,10 +6,10 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 markdown: kramdown
 disqus: ramnathk
-google_analytics: dybll # UA-40935987-1
+google_analytics: UA-40935987-1
 
 defaults:
-  
+
     scope:
       path: "" # empty string for all files
     values:
@@ -30,4 +30,4 @@ rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
 
-BASE_PATH: 
+BASE_PATH:
