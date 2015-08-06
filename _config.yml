@@ -4,7 +4,6 @@ permalink: /:title.html
 paginate: 10 # pagination based on number of posts
 paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
-highlighter: rogue
 markdown: kramdown
 disqus: ramnathk
 google_analytics: dybll # UA-40935987-1
