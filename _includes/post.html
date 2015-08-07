@@ -1,11 +1,13 @@
 <div class="page-header">
+
+
   {% if page.image.feature %}
-  <div class="entry-image backing-img" style="background-image:url('{{ site.url }}/assets/media/{{ page.image.feature }}')">
-    <div class="title-container">
+  <div class="entry-img-header" style="background-image:url('{{ site.url }}/assets/media/{{ page.image.feature }}')">
   {% endif %}
-  <h1 class="entry-title">{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+    <header>
+      <h1 class ="entry-title">{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small> {% endif %}</h1>
+    </header>
   {% if page.image.feature %}
-    </div>
   </div>
   {% endif %}
 </div>
