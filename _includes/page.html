@@ -1,8 +1,8 @@
 {% if page.title %}
- {% unless page.hidetitle == 'yes' %}
+ {% if page.displaytitle == 'yes' %}
    <div class="page-header">
      <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
   </div>
-  {% endunless %}
+  {% endif %}
 {% endif %}
 {{ content }}
