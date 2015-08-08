@@ -129,7 +129,7 @@ article {
   padding: 20px 10px;
 }
 .entry-imgheader > header  {
-	background: rgba(0,0,0,0.2);
+	background: rgba(0,0,0,0.24);
 }
 article.home div a, article.home pre a { color: #2c3e50; }
 article.home div a:hover, article.home pre a:hover { color: #2c3e50; text-decoration: none; }
