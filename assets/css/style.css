@@ -87,7 +87,8 @@ article .share .gplus:hover {
 }
 
 .page-header {
-	color: #e74c3c;
+	/*color: #e74c3c;*/
+	color: #FFFFFF;
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
@@ -121,6 +122,7 @@ article {
     position: relative;
     /* background-size: contain; */
 }
+/*
 .entry-imgheader > header {
   position: absolute;
   bottom: 0;
@@ -153,11 +155,9 @@ article {
   height: 100%;
   background: rgba(0, 0, 0, 0.25)
 }
-.entry-imgheader > header > h1 {
-  margin: 0;
-/*  color: white; */
-  position: relative;
-  z-index: 1;
+*/
+.entry-imgheader > header  {
+	background: rgba(0,0,0,0.2);
 }
 article.home div a, article.home pre a { color: #2c3e50; }
 article.home div a:hover, article.home pre a:hover { color: #2c3e50; text-decoration: none; }
