@@ -8,16 +8,12 @@ description: Tips for yoga & fitness studios to better market, convert and retai
 {% for post in paginator.posts %}
 
 <article class="home">
-  {% if post.image.feature %}
-  <div class="entrytxtwithimg">
-  {% else %}
-  <div class="entrytxt">
-  {% endif %}
+
   <h2 class="entry-title">
     <a class="entry-title" href="{{ site.BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
   </h2>
 
-  <p class="post-date">
+<p class="post-date">
     {% assign d = post.date | date: "%d" | plus:'0' %}
     {{ post.date | date: "%B" }}
     {% case d %}
@@ -29,7 +25,7 @@ description: Tips for yoga & fitness studios to better market, convert and retai
     {{ post.date | date: "%Y" }}
   </p>
 
-  <div class="entry-body">
+  <div>
     {% if post.fullview %}
     {{ post.content }}
     {% else %}
@@ -42,12 +38,7 @@ description: Tips for yoga & fitness studios to better market, convert and retai
     {% endif %}
     {% endif %}
   </div>
-</div>
-{% if post.image.feature %}
-  <div class="entryimg">
-    <img class="img-responsive" src="url('{{ site.url }}/assets/media/{{ page.image.feature }}')">
-  </div>
-{% endif %}
+
 </article>
 {% endfor %}
 <hr/>
