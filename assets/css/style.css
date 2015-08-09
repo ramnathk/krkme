@@ -126,7 +126,7 @@ article {
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 20px 10px;
+  padding: 0 10px 10px;
 }
 .entry-imgheader > header  {
 	background: rgba(0,0,0,0.24);
@@ -162,6 +162,14 @@ article.home h2 a:hover,
 article.home h3 a:hover,
 article.home h4 a:hover {
 	color: #e74c3c;
+}
+
+.entrytxtwithimg {
+	float:right;
+}
+
+.entryimg > img {
+	float: left;
 }
 
 
