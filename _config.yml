@@ -9,10 +9,7 @@ disqus: ramnathk
 google_analytics: dbyll # UA-40935987-1
 
 defaults:
-
-    scope:
       path: "" # empty string for all files
-    values:
       title: Yoga & the Techie
 
 author:
