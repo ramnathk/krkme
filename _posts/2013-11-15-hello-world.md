@@ -5,6 +5,7 @@ categories: [general, setup, demo]
 tags: [demo, dbyll, dbtek, setup]
 fullview: false
 comments: true
+description: sample snippet description
 ---
 
 **dbyll** is minimalist, stylish theme for jekyll. Supports gravatar, account links (github, twitter, e-mail, pinterest, résume file) and a bio.  
