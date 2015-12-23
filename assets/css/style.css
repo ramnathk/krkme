@@ -87,7 +87,7 @@ article .share .gplus:hover {
 }
 
 .page-header {
-	color: #e74c3c;
+	color: ##5d5a63;
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
@@ -147,14 +147,14 @@ article.home h5,
 article.home h6 {
 	font-family: 'Playfair Display', serif;
 	font-weight:700;
-	color: #f2756a;
+	color: #5d5a63;
 }
 
 article.home h1 a,
 article.home h2 a,
 article.home h3 a,
 article.home h4 a {
-	color: #f2756a;
+	color: #5d5a63;
 }
 article.home h1 a:hover,
 article.home h2 a:hover,
