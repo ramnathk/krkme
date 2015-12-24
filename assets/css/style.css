@@ -114,22 +114,28 @@ article {
 	padding: 0 5% 0;
 }
 
-.entry-imgheader {
-	height: 330px;
+.entry-img-header {
+    margin:0 auto;
+    display:block;
+}
+
+.entry-img-bg-header {
+    height: 330px;
     background-repeat: no-repeat !important;
     margin: 0 auto;
     width: 950px;
     position: relative;
     /* background-size: contain; */
 }
-.entry-imgheader > header {
+
+.entry-img-bg-header > header {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   padding: 20px 10px;
 }
-.entry-imgheader > header  {
+.entry-img-bg-header > header  {
 	background: rgba(0,0,0,0.24);
 }
 article.home div a, article.home pre a { color: #2c3e50; }
