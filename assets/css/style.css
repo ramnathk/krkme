@@ -46,6 +46,7 @@ a.nav-link:hover { color: #777 }
 	font-size: 1em;
 	margin: 0 auto;
 	margin-bottom: 1em;
+	color: #999;
 }
 
 #contact-list li .fa,
