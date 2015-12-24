@@ -2,7 +2,7 @@
     <header>
   {% if page.image.feature %}
 <!--  <div class="entry-img-bg-header" style="background-image:url('{{ site.url }}/assets/media/{{ page.image.feature }}')"> -->
-     <img class="entry-img-header" width="500" height="271" src="url('{{ site.url }}/assets/media/{{ page.image.feature }}')" scale="0">
+     <img class="entry-img-header" width="500" height="271" src="/assets/media/{{ page.image.feature }}" scale="0">
      
   {% endif %}
       <h1 class ="entry-title">{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small> {% endif %}</h1>
